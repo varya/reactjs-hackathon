@@ -1,0 +1,20 @@
+safe: true
+markdown: kramdown
+highlighter: pygments
+permalink: /:title.html
+relative_permalinks: false
+
+default_theme: sc5
+default_width: 792
+default_lang: en
+default_body_class: list
+
+author:
+    name: Varya Stepanova
+    # url:  http://example.com/
+    company:
+        name: SC5 Online
+        # url:  http://example.com/
+
+progress: true
+line_numbers: true
