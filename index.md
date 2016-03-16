@@ -4,17 +4,6 @@ layout: sc5
 
 style: |
 
-    #Cover .main-logo__wrapper {
-        width: 100%;
-        text-align: center;
-    }
-    #Cover object.main-logo {
-        z-index: 5;
-        position: static;
-        width: 200px;
-        margin: 35px 50px;
-    }
-
     #Cover h2 {
         margin:80px 0 0;
         color:#FFF;
@@ -72,6 +61,7 @@ style: |
     }
     .shout.slide h2 {
       color: #fff;
+      font-size: 100px;
     }
     .no-title h2 {
       display: none;
@@ -80,19 +70,95 @@ style: |
 
 # React Hackathon {#Cover}
 
-<div class="main-logo__wrapper">
-    <object class="main-logo" data="themes/sc5/images/logo.min.svg#white" type="image/svg+xml"></object>
-</div>
-
 *Brought to you by&nbsp;[Varya&nbsp;Stepanova](http://varya.me/) and generated with&nbsp;[Jekyller](https://github.com/shower/jekyller)*
 {: .credits }
+
+<style>
+#Cover {
+  background-image:url('pictures/cover.png');
+  background-size: cover;
+  background-position: -75px 0, center;
+}
+#Cover h2 {
+   display: none;
+}
+
+#Cover .credits {
+ position: absolute;
+ bottom: 0;
+ right: 2em;
+}
+</style>
 
 ## Material
 
 [varya.me/reactjs-hackathon](http://varya.me/reactjs-hackathon)
 
-## Test
+## Agenda
+
+1. About the event
+1. Choosing the projects
+1. Introduction to React
+1. Stub projects
+1. Linking UI libraries
+1. Coding
+
+## Next big app
 {: .shout }
+
+## App to write
+
+<table><tr>
+
+<td markdown="1">
+* Instagram-like
+* Twitter dashboard
+* Shopping list
+* [Bars on map](http://kipp.is/map)
+</td>
+
+<td markdown="1">
+* [2048](https://claudiopro.github.io/2048-react/)
+* Tetris
+* [Snake game](https://reake-react-snake.firebaseapp.com/)
+* Your own idea
+</td>
+
+</tr></table>
+
+## React
+{: .shout }
+
+## Introduction to React
+
+## Starter projects
+
+Search: [andrewhfarmer.com/starter-project](http://andrewhfarmer.com/starter-project/)
+
+## Plain JavaScript
+{: .plainjs }
+
+[https://facebook.github.io/react/downloads.html](https://facebook.github.io/react/downloads.html)
+
+    <script src="https://fb.me/react-0.14.7.js"
+        integrity="sha384-xQae1pUPdAKUe0u0KUTNt09zzdwheX4VSUsV8vatqM+t6X7rta01qOzessL808ox"
+        crossorigin="anonymous"></script>
+    <script src="https://fb.me/react-dom-0.14.7.js"
+        integrity="sha384-A1t0GCrR06cTHvMjaxeSE8XOiz6j7NvWdmxhN/9z748wEvJTVk13Rr8gMzTUnd8G"
+        crossorigin="anonymous"></script>
+
+<style>
+.slide.plainjs pre code {
+  font-size: 0.45em;
+}
+</style>
+
+## ES5 + builder
+
+* [with webpack](https://github.com/petehunt/ReactHack)
+* [with gulp](https://github.com/artyomtrityak/react-hackathon)
+
+## ES6 + builder
 
 ## THANK YOU!
 {: .thanks }
