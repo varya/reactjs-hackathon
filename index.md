@@ -92,7 +92,7 @@ style: |
 
 ## Material
 
-[varya.me/reactjs-hackathon](http://varya.me/reactjs-hackathon)
+###[varya.me/reactjs-hackathon](http://varya.me/reactjs-hackathon)
 
 ## Agenda
 
@@ -160,13 +160,22 @@ Search: [andrewhfarmer.com/starter-project](http://andrewhfarmer.com/starter-pro
 
 ## ES6 + builder
 
+## React UI components
+
+* [Bootstrap](https://react-bootstrap.github.io/)
+* [Elemental](http://elemental-ui.com/)
+* [Material UI](http://www.material-ui.com/#/)
+* [TopCoat](https://github.com/kjda/react-topui)
+* [React ToolBox](http://react-toolbox.com/#/)
+* [Grommet](http://www.grommet.io/docs/)
+
+## Coding time
+{: .shout }
+
 ## THANK YOU!
 {: .thanks }
 
-Varya Stepanova, SC5 Online<br/>
-[@varya_en](https://twitter.com/varya_en){: .twitter }
-
-###[github://sc5/sc5-styleguide-visualtest](https://github.com/SC5/sc5-styleguide-visualtest)
+###[varya.me/reactjs-hackathon](http://varya.me/reactjs-hackathon)
 
 <style>
 .thanks h3 {
