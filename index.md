@@ -91,8 +91,15 @@ style: |
 </style>
 
 ## Material
+{: .material }
 
-###[varya.me/reactjs-hackathon](http://varya.me/reactjs-hackathon)
+### [varya.me/reactjs-hackathon](http://varya.me/reactjs-hackathon)
+
+<style>
+.material h3 {
+  font-size: 2.15em;
+}
+</style>
 
 ## Agenda
 
@@ -131,9 +138,31 @@ style: |
 
 ## Introduction to React
 
-## Starter projects
+* [Official React website](https://facebook.github.io/react/index.html)
+* [17 short video lessons](https://egghead.io/series/build-your-first-react-js-application)
 
-Search: [andrewhfarmer.com/starter-project](http://andrewhfarmer.com/starter-project/)
+## Buzz words
+
+* ES2015 (ES6)
+* React
+* webpack
+* Flux / Redux
+
+## Starter projects
+{: .starter-projects }
+
+###Search
+
+[andrewhfarmer.com/starter-project](http://andrewhfarmer.com/starter-project/)
+
+<style>
+.starter-projects h3 {
+  font-size: 1.65em;
+}
+.starter-projects a {
+  font-size: 1.65em;
+}
+</style>
 
 ## Plain JavaScript
 {: .plainjs }
@@ -158,7 +187,11 @@ Search: [andrewhfarmer.com/starter-project](http://andrewhfarmer.com/starter-pro
 * [with webpack](https://github.com/petehunt/ReactHack)
 * [with gulp](https://github.com/artyomtrityak/react-hackathon)
 
-## ES6 + builder
+## ES2015 + builder
+
+* [Essential](https://github.com/pheuter/essential-react)
+* [varya/react-stub](https://github.com/varya/react-stub)
+  * ES2015, BEM, PostCSS, webpack
 
 ## React UI components
 
@@ -168,6 +201,7 @@ Search: [andrewhfarmer.com/starter-project](http://andrewhfarmer.com/starter-pro
 * [TopCoat](https://github.com/kjda/react-topui)
 * [React ToolBox](http://react-toolbox.com/#/)
 * [Grommet](http://www.grommet.io/docs/)
+* [Belle](http://nikgraf.github.io/belle/#/?_k=xvldj2)
 
 ## Coding time
 {: .shout }
@@ -179,23 +213,6 @@ Search: [andrewhfarmer.com/starter-project](http://andrewhfarmer.com/starter-pro
 
 <style>
 .thanks h3 {
-  font-size: 50px;
-}
-.thanks .twitter
-{
-  text-decoration: none;
-  color: currentColor;
-  background: none;
-}
-.thanks .twitter::before
-{
-  content: "";
-  display: inline-block;
-  width: 1.5em;
-  height: 1.5em;
-  background-image:url('pictures/twitter-logo.png');
-  background-size: cover;
-  margin-right: 0.5em;
-  margin-bottom: -0.5em;
+  font-size: 2.15em;
 }
 </style>
