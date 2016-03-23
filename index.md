@@ -141,6 +141,27 @@ style: |
 * [Official React website](https://facebook.github.io/react/index.html)
 * [17 short video lessons](https://egghead.io/series/build-your-first-react-js-application)
 
+## What is so great about React?
+{: .what-is-so-great }
+
+<textarea class="insert">
+</textarea>
+
+<style>
+.what-is-so-great .insert {
+  width: 100%;
+  height: 325px;
+  font-size: 25px;
+}
+</style>
+
+<script>
+var textArea = document.querySelector('.what-is-so-great .insert');
+textArea.addEventListener('keydown', function(e){
+  e.stopPropagation();
+});
+</script>
+
 ## Buzz words
 
 * ES2015 (ES6)
