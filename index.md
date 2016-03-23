@@ -216,13 +216,12 @@ textArea.addEventListener('keydown', function(e){
 
 ## React UI components
 
-* [Bootstrap](https://react-bootstrap.github.io/)
-* [Elemental](http://elemental-ui.com/)
-* [Material UI](http://www.material-ui.com/#/)
-* [TopCoat](https://github.com/kjda/react-topui)
-* [React ToolBox](http://react-toolbox.com/#/)
-* [Grommet](http://www.grommet.io/docs/)
-* [Belle](http://nikgraf.github.io/belle/#/?_k=xvldj2)
+* [React ToolBox](http://react-toolbox.com/#/) -
+  [react-stub@with-react-toolbox](https://github.com/varya/react-stub/tree/with-react-toolbox)
+* [Material UI](http://www.material-ui.com/#/) -
+  [react-stub@with-material-ui](https://github.com/varya/react-stub/tree/with-material-ui)
+* [Belle](http://nikgraf.github.io/belle/#/?_k=xvldj2) -
+  [react-stub@with-belle](https://github.com/varya/react-stub/tree/with-belle)
 
 ## Coding time
 {: .shout }
