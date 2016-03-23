@@ -102,13 +102,24 @@ style: |
 </style>
 
 ## Agenda
+{: .agenda }
 
 1. About the event
 1. Choosing the projects
 1. Introduction to React
 1. Stub projects
 1. Linking UI libraries
+1. React Native
 1. Coding
+
+<style>
+.agenda ol {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    list-style-position: inside;//this is important addition
+}
+</style>
 
 ## Next big app
 {: .shout }
@@ -222,6 +233,16 @@ textArea.addEventListener('keydown', function(e){
   [react-stub@with-material-ui](https://github.com/varya/react-stub/tree/with-material-ui)
 * [Belle](http://nikgraf.github.io/belle/#/?_k=xvldj2) -
   [react-stub@with-belle](https://github.com/varya/react-stub/tree/with-belle)
+
+## Dummy JSONs
+
+Dummy JSONs:
+
+* [Twitter JSON response](https://gist.github.com/search?l=json&q=twitter+json&utf8=%E2%9C%93)
+* [Instagram JSON response](https://gist.github.com/mgcm/4d4ddf687b1399b87de4)
+
+## React Native
+{: .shout }
 
 ## Coding time
 {: .shout }
