@@ -110,6 +110,7 @@ style: |
 1. Stub projects
 1. Linking UI libraries
 1. React Native
+1. Relay&QraphQL
 1. Coding
 
 <style>
@@ -179,6 +180,7 @@ textArea.addEventListener('keydown', function(e){
 * React
 * webpack
 * Flux / Redux
+* Relay & GraphQL
 
 ## Starter projects
 {: .starter-projects }
@@ -242,6 +244,9 @@ Dummy JSONs:
 * [Instagram JSON response](https://gist.github.com/mgcm/4d4ddf687b1399b87de4)
 
 ## React Native
+{: .shout }
+
+## Relay and GraphQL
 {: .shout }
 
 ## Coding time
